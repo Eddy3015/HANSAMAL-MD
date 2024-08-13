@@ -2,15 +2,15 @@
   "name": "HANSAMAL-MD",
   "version": "10.8.1",
   "description": "HANSAMAL-MD latest multi device whatsapp bot",
-  "main": "src/index.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "pm2 start src/index.js --deep-monitoring --attach --name HANSAMAL-MD",
+    "start": "pm2 start index.js --deep-monitoring --attach --name HANSAMAL-MD",
     "stop": "pm2 stop HANSAMAL-MD",
     "restart": "pm2 restart HANSAMAL-MD"
   },
   "keywords": ["hansamal-md", "whatsapp-bot", "whatsapp md bot"],
-  "author": "Hansamal",
+  "author": "IMALKA-HANSAMAL",
   "license": "ISC",
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
@@ -54,6 +54,7 @@
     "pm2": "^5.4.0",
     "proto": "^1.0.19",
     "qrcode": "^1.5.3",
+    "qrcode-terminal": "^0.12.0",
     "readline": "^1.3.0",
     "remove.bg": "^1.3.0",
     "tesseract.js": "^5.1.0",
